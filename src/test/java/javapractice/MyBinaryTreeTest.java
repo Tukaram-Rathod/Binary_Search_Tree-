@@ -52,9 +52,7 @@ public class MyBinaryTreeTest {
         myBinaryTree.add(67);
         myBinaryTree.add(95);
         myBinaryTree.add(65);
-        boolean result = myBinaryTree.search(65);
+        boolean result = myBinaryTree.search(63);
         Assert.assertTrue(result);
-
-
     }
 }
